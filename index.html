@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Melike için Paralel Evrenlerden Mektuplar</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&family=Caveat:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Floating Hearts Background -->
+    <div class="floating-hearts">
+        <div class="heart">💜</div>
+        <div class="heart">💜</div>
+        <div class="heart">💜</div>
+        <div class="heart">💜</div>
+        <div class="heart">💜</div>
+        <div class="heart">💜</div>
+        <div class="heart">💜</div>
+        <div class="heart">💜</div>
+        <div class="heart">💜</div>
+        <div class="heart">💜</div>
+    </div>
+
+    <div class="container">
+        <header>
+            <h1 class="main-title">Melike için Paralel Evrenlerden Mektuplar</h1>
+            <p class="subtitle">Her evrenden, sana olan sevgimin hikâyesi...</p>
+        </header>
+
+        <main>
+            <div class="universe-story" id="universeStory">
+                <div class="story-content">
+                    <p id="storyText">
+                        <!-- JavaScript ile doldurulacak -->
+                    </p>
+                    <p class="love-declaration">Ve o evrende de sana aşık oldum, Melike.</p>
+                </div>
+            </div>
+
+            <div class="refresh-hint">
+                <p>✨ Başka bir evren görmek için sayfayı yenile</p>
+            </div>
+
+            <div class="button-group">
+                <div class="infinite-sentence-trigger">
+                    <button id="infiniteSentenceBtn" class="magical-btn">
+                        <span class="btn-text">Tıkla :3</span>
+                        <span class="btn-heart">💕</span>
+                    </button>
+                </div>
+                
+                <div class="love-meter-trigger">
+                    <button id="loveMeterBtn" class="magical-btn love-meter-btn">
+                        <span class="btn-text">Aşk Ölçer</span>
+                        <span class="btn-heart">💖</span>
+                    </button>
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            <p class="final-message">
+                "Gerçek evrende de, binlerce olasılığın içinden seni seçtim."
+            </p>
+            <p class="signature">- Akif</p>
+        </footer>
+    </div>
+
+    <!-- Sonsuz Cümle Modal -->
+    <div id="infiniteModal" class="modal">
+        <div class="modal-content">
+            <span class="close" id="closeModal">&times;</span>
+            <h2 class="modal-title">Eğer sana olan hislerimi tek bir cümleyle anlatabilseydim...</h2>
+            <div class="typing-container">
+                <p id="infiniteText" class="infinite-text"></p>
+                <span class="cursor">|</span>
+            </div>
+            <p class="infinite-explanation">
+                <em>Bu cümle hiç bitmeyecek, çünkü sana olan sevgim sonsuz...</em>
+            </p>
+        </div>
+    </div>
+
+    <!-- Aşk Ölçer Modal -->
+    <div id="loveMeterModal" class="modal">
+        <div class="modal-content love-meter-content">
+            <span class="close" id="closeLoveMeterModal">&times;</span>
+            <h2 class="modal-title">💖 Aşk Ölçer 💖</h2>
+            <div class="love-meter-container">
+                <div class="meter-label">Akif'in Melike'ye olan aşkı:</div>
+                <div class="love-meter">
+                    <div class="meter-background">
+                        <div class="meter-fill" id="meterFill"></div>
+                    </div>
+                    <div class="meter-percentage" id="meterPercentage">0%</div>
+                </div>
+                <div class="meter-result" id="meterResult">
+                    <p class="result-text">Başka ne olabilirdi ki :)</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
