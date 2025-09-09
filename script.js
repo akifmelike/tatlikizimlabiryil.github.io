@@ -42,7 +42,7 @@ const universeStories = [
     
     "Paralel bir boyutta, zaman makinesi mucitleriyiz. Geçmişe ve geleceğe seyahat ediyoruz ama her seferinde aynı sonuca ulaşıyoruz: Her zaman diliminde sana aşık olacakmışım. Dinozor çağında bile seni bulmak için aramaya çıkıyorum. Gelecekte robot olsak bile kalbim senin için çarpıyor.",
     
-    "Başka bir evrende, ikimiz de süper kahramanız. Senin gücün kalpleri iyileştirmek, benimki aşkla uçmak. Şehri kötü güçlerden korurken, asıl gücümüzün sevgimiz olduğunu biliyoruz. Kötüler bile bizim karşımızda eriyor, 'Bu ne büyük aşk böyle' diye itiraf ediyor.",
+    "Başka bir evrende, gerçekten , bir geleceğe sahibiz ve birbirimizle sadece mutluyuz.",
     
     "Alternatif bir gerçeklikte, büyücü olmışuz. Sen iksir hazırlıyorsun, ben büyülü hikayeler yazıyorum. En güçlü büyümüz 'Sonsuz Aşk' formülü. Herkese aşık olmayı öğretiyoruz. Büyü okulunda en popüler dersimiz 'Romantizm 101'. Öğrenciler bile bizim gibi aşık olmak istiyor.",
     
